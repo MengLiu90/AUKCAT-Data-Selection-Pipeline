@@ -15,4 +15,4 @@ The AUKCAT-Data-Selection-Pipeline uses the following inputs to iteratively sele
 ### 1. Original Dataset
 The original dataset consists of substrate–EC number–species triples paired with experimentally measured kcat values. Substrates are embedded using [Mol2Vec](https://github.com/samoturk/mol2vec), EC numbers via [EC2Vec](https://github.com/MengLiu90/EC2Vec), and species via Node2Vec.
 
-The file ./Datasets/Original_data.csv contains all original instances used in the data selection pipeline. The file ./Datasets/example_data.csv contains example data after embedding.
+The file ```./Datasets/Original_data.csv``` contains all original instances used in the data selection pipeline. The file ```./Datasets/example_data.csv``` contains example data after embedding.
