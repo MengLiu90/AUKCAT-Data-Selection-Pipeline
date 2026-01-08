@@ -5,10 +5,14 @@ AUKCAT-Data-Selection-Pipeline is an iterative data-selection procedure that fil
 
 
 ## Dependencies
-1. pandas 1.4.2
-2. numpy 1.24.3
-3. sklearn 1.0.2
-4. scipy 1.5.3
+## Dependencies
+1. pytorch 1.10.0
+2. pandas 1.4.2
+3. numpy 1.24.3
+4. sklearn 1.0.2
+5. scipy 1.5.3
+6. CUDA 11.1
+
 
 ## Pipeline Inputs
 The AUKCAT-Data-Selection-Pipeline uses the following inputs to iteratively select high-confidence pseudo instances and expand the augmented training dataset:
