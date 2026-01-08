@@ -30,4 +30,4 @@ To iteratively select the high-confidence pseudo instances and get expanded trai
 
 The selected synthetic instances from each round are saved in the output directory ```pseudo_selection_outputs_20r_tolorance```
 
-Note: ```data_selection_script.py``` invokes the CVAE data generation script ```CVAE_data_generation.py``` via ```subprocess.run()``` in each round to dynamically generate fresh pseudo samples using a pre-trained AUKCAT-CVAE model.
+Note: ```Data_selection_script.py``` invokes the CVAE data generation script ```CVAE_data_generation.py``` via ```subprocess.run()``` in each round to dynamically generate fresh pseudo samples using a pre-trained AUKCAT-CVAE model.
