@@ -64,7 +64,7 @@ class CVAEWithRegressor(nn.Module):
         return x_recon, mu, logvar, y_pred
 
 # ----- Load Model -----
-checkpoint = torch.load("Trained_model/cvae_model.pth",
+checkpoint = torch.load("Trained_CVAE_model/cvae_model.pth",
                         map_location=torch.device('cpu'))
 model = CVAEWithRegressor(input_dim=checkpoint['input_dim'],
                           cond_dim=checkpoint['condition_dim'],
